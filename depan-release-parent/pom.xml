@@ -62,9 +62,9 @@
 
           <target>
             <artifact>
-              <groupId>com.pnambic.depan</groupId>
-              <artifactId>depan-sdk202203-target</artifactId>
-              <version>1.0.0-sdk202203</version>
+              <groupId>com.pnambic.devtools.depan</groupId>
+              <artifactId>depan-release-target</artifactId>
+              <version>2.0.1-SNAPSHOT</version>
             </artifact>
           </target>
         </configuration>
