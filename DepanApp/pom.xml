@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.pnambic.devtools.depan</groupId>
+    <artifactId>depan-release-parent</artifactId>
+    <version>2.0.1-SNAPSHOT</version>
+    <relativePath>../depan-release-parent</relativePath>
+  </parent>
+
+  <artifactId>com.pnambic.devtools.depan.app</artifactId>
+  <version>2.0.1-SNAPSHOT</version>
+  <packaging>eclipse-plugin</packaging>
+
+  <name>DepAn Application</name>
+  <description>DepAn Application Plugin</description>
+
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+  </build>
+
+  <dependencies>
+    <!-- OSGi compliant libraries -->
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+    </dependency>
+
+    <!-- DepAn dependencies -->
+  </dependencies>
+</project>
