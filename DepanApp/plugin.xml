@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.pnambic.depan2.app.application.Depan2App">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.pnambic.depan2.app.application.Perspective"
+            name="DepAn Perspective"
+            id="com.pnambic.depan2.app.application.perspective">
+      </perspective>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="DepAn 2"
+            application="com.pnambic.depan2.app.application.application">
+         <property
+               name="windowImages"
+               value="icons/depan2/depan16x16.png,icons/depan2/depan32x32.png,icons/depan2/depan48x48.png,icons/depan2/depan64x64.png,icons/depan2/depan128x128.png,icons/depan2/depan256x256.png">
+         </property>
+         <property
+               name="appName"
+               value="DepAn 2">
+         </property>
+         <property
+               name="aboutImage"
+               value="icons/launcher/depan128x128.bmp">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

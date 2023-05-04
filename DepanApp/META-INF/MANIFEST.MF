@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Depan2App
+Bundle-SymbolicName: com.pnambic.depan2.app.application;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Pnambic Computing
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.apache.felix.scr,
+ org.eclipse.equinox.event
+Automatic-Module-Name: com.pnambic.depan2.app.application
+Bundle-RequiredExecutionEnvironment: JavaSE-17

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="DepAn 2" uid="Depan2App" id="com.pnambic.depan2.app.application.product" application="com.pnambic.depan2.app.application.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
+
+   <aboutInfo>
+      <image path="/DepanApp/icons/launcher/depan128x128.bmp"/>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-consoleLog
+      </programArgs>
+      <vmArgs>-Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true
+      </vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/DepanApp/icons/depan2/depan16x16.png" i32="/DepanApp/icons/depan2/depan32x32.png" i48="/DepanApp/icons/depan2/depan48x48.png" i64="/DepanApp/icons/depan2/depan64x64.png" i128="/DepanApp/icons/depan2/depan128x128.png" i256="/DepanApp/icons/depan2/depan256x256.png"/>
+
+   <splash
+      location="com.pnambic.depan2.app.application" />
+   <launcher name="Depan2">
+      <win useIco="false">
+         <bmp
+            winSmallHigh="/DepanApp/icons/launcher/depan16x16.bmp"
+            winSmallLow="/DepanApp/icons/launcher/depan16x16.bmp"
+            winMediumHigh="/DepanApp/icons/launcher/depan32x32.bmp"
+            winMediumLow="/DepanApp/icons/launcher/depan32x32.bmp"
+            winLargeHigh="/DepanApp/icons/launcher/depan48x48.bmp"
+            winLargeLow="/DepanApp/icons/launcher/depan48x48.bmp"
+            winExtraLargeHigh="/DepanApp/icons/launcher/depan256x256.bmp"/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="com.pnambic.depan2.app.feature"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.osgi" autoStart="true" startLevel="1" />
+   </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
+
+</product>
