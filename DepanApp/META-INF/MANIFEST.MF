@@ -7,6 +7,8 @@ Bundle-Vendor: Pnambic Computing
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui,
  org.apache.felix.scr,
- org.eclipse.equinox.event
+ org.eclipse.equinox.event,
+ org.eclipse.ui.ide,
+ org.eclipse.ui.forms
 Automatic-Module-Name: com.pnambic.depan2.app.application
 Bundle-RequiredExecutionEnvironment: JavaSE-17

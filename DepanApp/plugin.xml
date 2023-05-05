@@ -5,7 +5,8 @@
    <extension
          id="application"
          point="org.eclipse.core.runtime.applications">
-      <application>
+      <application
+            icon="icons/depan2/depan32x32.png">
          <run
                class="com.pnambic.depan2.app.application.Depan2App">
          </run>
@@ -15,8 +16,9 @@
          point="org.eclipse.ui.perspectives">
       <perspective
             class="com.pnambic.depan2.app.application.Perspective"
-            name="DepAn Perspective"
-            id="com.pnambic.depan2.app.application.perspective">
+            icon="icons/depan2/depan32x32.png"
+            id="com.pnambic.depan2.app.application.perspective"
+            name="DepAn Perspective">
       </perspective>
    </extension>
    <extension
